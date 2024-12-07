@@ -1,24 +1,25 @@
 {
-  "name": "api-rest-node-typescript",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "dev": "npx ts-node-dev ./src/index.ts"
-  },
-  "keywords": [],
-  "author": "Vitor",
-  "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "express": "^4.21.2"
-  },
-  "devDependencies": {
-    "@eslint/js": "^9.16.0",
-    "@types/express": "^5.0.0",
-    "eslint": "^9.16.0",
-    "globals": "^15.13.0",
-    "ts-node-dev": "^2.0.0",
-    "typescript": "^5.7.2",
-    "typescript-eslint": "^8.17.0"
-  }
+    "name": "api-rest-node-typescript",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "start": "npx ts-node-dev ./src/index.ts"
+    },
+    "keywords": [],
+    "author": "Vitor",
+    "license": "ISC",
+    "description": "",
+    "dependencies": {
+        "express": "^4.21.2",
+        "http-status-codes": "^2.3.0"
+    },
+    "devDependencies": {
+        "@eslint/js": "^9.16.0",
+        "@types/express": "^5.0.0",
+        "eslint": "^9.16.0",
+        "globals": "^15.13.0",
+        "ts-node-dev": "^2.0.0",
+        "typescript": "^5.7.2",
+        "typescript-eslint": "^8.17.0"
+    }
 }
