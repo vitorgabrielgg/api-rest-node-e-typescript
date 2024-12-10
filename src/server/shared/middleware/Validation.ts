@@ -25,8 +25,6 @@ export const validation: TValidation =
                 schema.validateSync(req[key as TProperty], {
                     abortEarly: false,
                 });
-
-                // return next();
             } catch (err) {
                 const yupError = err as ValidationError;
                 const errors: Record<string, string> = {};
